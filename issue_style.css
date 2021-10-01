@@ -1,5 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;900&family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Koh Santepheap', cursive;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.webtitle {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.menuContainer {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.menuContainer a, .menuContainer a:visited {
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.insetContent {
+margin-left: 40px;
+margin-right: 40px;
+}
+
+#subtitle {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.twoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  background-color: yellow;
+  align-items: center;
+}
+
+img {
+  /* display: flex; */
+  width: 100%;
+  object-fit: cover;
+  background-color: blue;
+}
+
+.para {
+  width: 100%;
+  align-items: center;
+  background-color: red;
+
+}
+
+.footer {
+  display: flex;
+  height: 150px;
+  font-size: 24px;
+  color: grey;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 32px;
 }
